@@ -1,12 +1,262 @@
 *{
+    padding: 0;
+    margin:0;
     box-sizing: border-box;
-    color: #000;
 }
-body{
+ .top {
     padding: 0;
     margin: 0;
-    background-color: brown;
+    background-image: url("../images/bcg.jpg");  
+    background-size: 1600px 100vh;
+    background-position: 0px;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    height: 100vh; 
+    
 }
+#nav{
+    display:flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+#nav span{
+    color: turquoise;
+}
+@media only screen and(max-width=100%){.nav-tab{
+    flex:10px;
+    text-align: right;
+    color: #E1EBE6;
+    }}
+
+    .nav-bar ul li{
+    list-style: none;
+    padding:10px 30px;
+    text-align:right;
+    display:inline-block;
+    position:relative
+    }
+.nav-bar ul a{
+text-decoration: none;
+color: white;
+} 
+.nav-bar{
+    margin-left: 400px;
+}
+.span2{
+    height: 30px;
+    width: 85px;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top: 4px;
+    
+}
+.media{
+    margin-top: 10%;
+    margin-left: 10%;
+    color: turquoise;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+.mediap{
+    margin-left: 10%;
+}
+
+.get-started {
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 1%;
+    background-color: gray;
+}
+.started{
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    
+
+    
+    
+    
+}
+.footer{
+    background-color:gray;
+    height: 200px;
+    
+} 
+.socials{
+    margin-left: 70%;
+}  
+
+
+
+.membership1{
+    background-image:url("../images/back4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vw; */
+    height: 100vh;
+}
+.membershipA h3 {
+    color: #f1f1f1;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 60px;
+
+}
+.membershipA h4{
+    color: #f1f1f1;
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 270px;
+
+}
+.membershipA h5{
+    color: #f1f1f1;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+.inputName{
+    color: #f1f1f1;
+    font-family: sans-serif;
+    display: flex;
+    margin-left: 270px;
+}
+.inputName1{
+    margin-right: 20px;
+}
+.gender{
+    color: #f1f1f1;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+.birthDate{
+    color: #f1f1f1;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+.contacts{
+    color: #f1f1f1;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+.resume{
+    display: flex;
+}
+.resume h5{
+    margin-right: 10px;
+}
+
+
+body {font-family: "Lato", sans-serif;}
+.icon-bar{
+  font-size: 40px;
+  height: 50px;
+  background-color:#DEE2E5 ;
+  padding: 16px;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 630px;
+ 
+  }
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  font-size: 10px;
+  overflow-x: hidden;
+  z-index: 1;
+  
+}
+
+.sidebar a{
+  display: block;
+  color: black;
+  font-size: 20px;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+ 
+}
+.sidebar a:hover {
+  color: blue;
+}
+
+.PJ{
+  padding-top: 80px;
+}
+.sc{
+  padding-top: 200px;
+}
+
+.headings{
+  text-align: center;
+  margin-right: 1100px;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.btn-group{
+  margin-left: 250px;
+}
+.btn-group button {
+  background-color: #DEE2E5; 
+  border: 1px solid white; 
+  color: black; 
+  padding: 10px 24px;
+  cursor: pointer; 
+  float: left;
+  padding-top: 20px;
+  font-size: 15px; 
+}
+
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+
 
 
 
