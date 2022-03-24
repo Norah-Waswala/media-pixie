@@ -7,12 +7,14 @@
     padding: 0;
     margin: 0;
     background-image: url("../images/bcg.jpg");  
-    background-size: 1600px 100vh;
+    background-size: cover;
     background-position: 0px;
     background-origin: content-box;
     background-repeat: no-repeat;
     color: whitesmoke;
-    height: 100vh; 
+    height: 200vh;
+    
+    
     
 }
 #nav{
@@ -65,14 +67,16 @@ color: white;
 }
 .mediap{
     margin-left: 10%;
+   
 }
 
-.get-started {
+.button {
     border-radius: 10px;
     border: none;
     padding: 10px 20px;
     margin-left: 1%;
     background-color: gray;
+    color:black;
 }
 .started{
     margin-top: 3%;
@@ -92,12 +96,15 @@ color: white;
     
 }
 .footer{
-    background-color:gray;
+    /* background-color:gray; */
     height: 200px;
-    
+    margin-top: 65%;
+    font-size: 30px;
 } 
-.socials{
+ .socials{
     margin-left: 70%;
+    size-adjust: 60%;
+  text-align: center;
 }  
 
 
@@ -174,7 +181,7 @@ color: white;
     margin-right: 10px;
 }
 
-
+/*contacts styles*/
 body {font-family: "Lato", sans-serif;}
 .icon-bar{
   font-size: 40px;
@@ -199,12 +206,13 @@ body {font-family: "Lato", sans-serif;}
 .sidebar {
   height: 100%;
   width: 200px;
-  position: fixed;
+  /* position: relative; */
   background-color: whitesmoke;
   padding-top: 10px;
   font-size: 10px;
-  overflow-x: hidden;
-  z-index: 1;
+  /* overflow-x: hidden; */
+  /* z-index: 1;
+  float: left; */
   
 }
 
@@ -236,16 +244,18 @@ body {font-family: "Lato", sans-serif;}
 
 .btn-group{
   margin-left: 250px;
+  margin-top: 0;
 }
 .btn-group button {
   background-color: #DEE2E5; 
   border: 1px solid white; 
   color: black; 
-  padding: 10px 24px;
+  /* padding: 10px 24px; */
   cursor: pointer; 
   float: left;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   font-size: 15px; 
+  /* position: relative; */
 }
 
 
