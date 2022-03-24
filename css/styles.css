@@ -441,7 +441,35 @@ transform: scale(1.1);
 transform: scale(1.1);
 }
 
+/* location styling */
+.project-heading {
+    display: none;
+  background: #f1f1f1;
+  height:100% ;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%; 
+  z-index: 1;
+  padding-right: 30%;
+  padding-top: 25px;
+  opacity: 0.8;
+  transform: translate(-50%, -50%);
+}
 
+/* portfolio styling */
 
-
-
+.talent-heading {
+  display: none;
+background: #f1f1f1;
+height:100% ;
+width: 100%;
+position: absolute;
+left: 50%;
+top: 50%; 
+z-index: 1;
+padding-right: 30%;
+padding-top: 25px;
+opacity: 0.8;
+transform: translate(-50%, -50%);
+}
