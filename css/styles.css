@@ -8,6 +8,9 @@
   background-size: cover;
 
 }
+.nav-link ul{
+  display: none;
+}
 .logo>.navbar-brand {
   color: white;
   font-weight: bold;
@@ -212,6 +215,17 @@ h1,h2{
   color: blue;
 }
 
+
+/* photos styles*/
+/* *{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+} */
+/* .input{
+  display: none;
+} */
 .containerImage{
   width: 100%;
   text-align: center;

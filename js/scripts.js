@@ -1,6 +1,6 @@
 $("document").ready(function(){
-    $(".#primary").click(function() {
-        alert("The Form has been Submitted.");
+    $(".#nav-link").toggle(function() {
+        $(".ul").show();
      });
    
 })
