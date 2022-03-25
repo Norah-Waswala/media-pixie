@@ -62,7 +62,6 @@ margin-top: 400px;
   max-height: 200px;
  margin-bottom: 10px;
 }
-
 .membership1{
     background-image:url("../images/back4.jpg");
     background-repeat: no-repeat;
@@ -226,16 +225,20 @@ h1,h2{
 /* .input{
   display: none;
 } */
+
+
+/* style project list and location */
+/* > 53415c9e590a273d4107e450c005181098240280 */
 .containerImage{
   width: 100%;
   text-align: center;
 }
-h1{
+/* h1{
   font-weight: normal;
   font-size: 35px;
   position: relative;
   margin: 40px;
-}
+} */
 
 .top-content{
   background-color: azure;

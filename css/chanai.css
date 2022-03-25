@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("../images/back4.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* padding-bottom: 800px; */
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+.membershipA h3 {
+    color: #f1f1f1;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 60px;
+
+}
+.membershipA h4{
+    color: #f1f1f1;
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 270px;
+
+}
+.membershipA h5{
+    color: #f1f1f1;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+.inputName{
+    color: #f1f1f1;
+    font-family: sans-serif;
+    display: flex;
+    margin-left: 270px;
+}
+.inputName1{
+    margin-right: 20px;
+}
+.gender{
+    color: #f1f1f1;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+.birthDate{
+    color: #f1f1f1;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+.contacts{
+    color: #f1f1f1;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+.resume{
+    display: flex;
+}
+.resume h5{
+    margin-right: 10px;
+}
+/* .contacts #signUP{
+ 
+  display:flex ;
+  flex-direction: column;
+  border:2px solid  red ;
+} */
+
+/* contacts style*/
